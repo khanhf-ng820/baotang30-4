@@ -186,11 +186,11 @@ button:active {
 
 .scrtext p {
 	-webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
-    transition: color 1s; /* For modern browsers */
+  	transition: color 1s; /* For modern browsers */
 }
 
-.scrtext p:hover {
-	color: #1e1e1c;
+.scrtext:hover > .pg {
+	color: #1c1c1c;
 }
 
 .scrtext::-webkit-scrollbar {
@@ -319,9 +319,14 @@ button:active {
 	background-image: url('img/Trang 2/trang24.png');
 	background-size: cover;
 	background-position: center;
-	filter: brightness(0.5);
+/*	filter: brightness(0.5);*/
 	width: 100%;
 	height: 100%;
+	transition: transform 0.5s;
+}
+
+.quote-bg:hover {
+	transform: scale(1.1);
 }
 
 .column2 {

@@ -170,18 +170,23 @@ button:active {
 	overflow: scroll;
 	text-align: justify;
 	text-justify: inter-word;
-	color: #a49783 ;
+	color: #a49783;
 	pointer-events: auto;
-	font-family: "Playfair Display", serif;
+/*	font-family: "Playfair Display", serif;*/
 	font-size: 18px;
 	border-style: solid;
 	border-color: #141516;
+/*	transition: color 1s;*/
 }
 
 .headline {
-	color:#931c19;
+	color:#931c19 !important;
 	font-size: 20px;
 	font-family: "Playfair Display", serif;
+}
+
+.ngay {
+	font-size: 30px;
 }
 
 .scrtext p {
@@ -189,9 +194,8 @@ button:active {
     transition: color 1s; /* For modern browsers */
 }
 
-.scrtext p:hover {
-	color: #1e1e1c; /* Adjust the color as needed */
-	font-weight: bold; /* Add this line to make it bolder */
+.scrtext:hover > .pg {
+	color: #1c1c1c;
 }
 
 .scrtext::-webkit-scrollbar {
@@ -320,9 +324,14 @@ button:active {
 	background-image: url('img/Trang 3/trang32.jpg');
 	background-size: cover;
 	background-position: center;
-	filter: brightness(0.5);
+/*	filter: brightness(0.5);*/
 	width: 100%;
 	height: 100%;
+	transition: transform 0.5s;
+}
+
+.quote-bg:hover {
+	transform: scale(1.1);
 }
 
 .column2 {
@@ -356,8 +365,4 @@ button:active {
 
 .imgiconic:hover {
 	transform: scale(1.1);
-}
-
-.ngay {
-	font-size: 30px;
 }
