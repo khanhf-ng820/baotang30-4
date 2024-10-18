@@ -316,7 +316,7 @@ button:active {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-image: url('img/chienthang.jpg');
+	background-image: url('img/Trang 2/trang24.png');
 	background-size: cover;
 	background-position: center;
 	filter: brightness(0.5);
@@ -356,4 +356,3 @@ button:active {
 .imgiconic:hover {
 	transform: scale(1.1);
 }
-

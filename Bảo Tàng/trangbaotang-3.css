@@ -190,7 +190,8 @@ button:active {
 }
 
 .scrtext p:hover {
-	color: #1e1e1c;
+	color: #1e1e1c; /* Adjust the color as needed */
+	font-weight: bold; /* Add this line to make it bolder */
 }
 
 .scrtext::-webkit-scrollbar {
@@ -316,7 +317,7 @@ button:active {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-image: url('img/chienthang.jpg');
+	background-image: url('img/Trang 3/trang32.jpg');
 	background-size: cover;
 	background-position: center;
 	filter: brightness(0.5);
@@ -355,4 +356,8 @@ button:active {
 
 .imgiconic:hover {
 	transform: scale(1.1);
+}
+
+.ngay {
+	font-size: 30px;
 }
