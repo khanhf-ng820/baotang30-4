@@ -18,7 +18,7 @@ body {
 	flex-direction: row;
 	margin: 0;
 	flex: 1 1 100vw;
-	background-image: linear-gradient(to bottom right, #f1e8e3, #c8aca6);
+	background-image: linear-gradient(to bottom right, #c3a374, #c3a374);
 	font-family: "Playfair Display", serif;
 	font-optical-sizing: auto;
 	font-weight: 400;
@@ -34,6 +34,9 @@ p {
 
 h1 {
 	font-weight: 400;
+	color:#931c19;
+/*	font-size: 20px;*/
+	font-family: "Playfair Display", serif;
 }
 
 @keyframes fadein {
@@ -136,7 +139,27 @@ button:active {
 .textbox {
 	-ms-overflow-style: none;
 	scrollbar-width: none;
+	-webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+  	transition: color 1s; /* For modern browsers */
+/*  	color: #a49789;*/
+
+	background-color: #e4ccab ;
+	border-radius: 20px;
+	padding: 0px 15px 15px 15px;
+	overflow: scroll;
+	text-align: justify;
+	text-justify: inter-word;
+	color: #a49783 ;
+	pointer-events: auto;
+	font-family: "Playfair Display", serif;
+/*	font-size: 18px;*/
+	border-style: solid;
+	border-color: #141516;
 }
+
+/*.textbox:hover > .pg {
+	color: #1c1c1c;
+}*/
 
 
 
