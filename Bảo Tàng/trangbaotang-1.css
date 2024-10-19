@@ -26,6 +26,15 @@ body {
 	position: relative;
 }
 
+html::-webkit-scrollbar {
+	display: none;
+}
+
+html {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
 p {
 	z-index: 2;
 	font-family: "Roboto", sans-serif;
